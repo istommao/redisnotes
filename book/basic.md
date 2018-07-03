@@ -1,5 +1,23 @@
 # 基本使用
 
+## 基本命令
+
+```shell
+redis-cli
+redis 127.0.0.1:6379>
+redis 127.0.0.1:6379> PING
+
+PONG
+```
+
+`带密码`
+```shell
+redis-cli -h host -p port -a password
+# 示例
+redis-cli -h 127.0.0.1 -p 6379 -a "mypass"
+```
+
+
 ## 配置
 
 ```shell
